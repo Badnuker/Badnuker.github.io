@@ -113,7 +113,7 @@ gitalk:
   enable: true
   autoExpand: true
   clientID: 'b921e7e8f30769be6b9f'
-  clientSecret: '45125d2553904d2453a2c32fb9e562982ca05da6'
+  clientSecret: 'bf594b94490cee0e9a1133ffc46b4a1c5a429318'
   repo: 'badnuker.github.io' ## dev-blo-comments
   owner: 'badnuker' ## owner name
   admin: ['badnuker'] ## ['admin_name']
