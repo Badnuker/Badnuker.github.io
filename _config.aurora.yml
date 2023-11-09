@@ -91,6 +91,8 @@ socials:
   # book:
   #   icon: far fa-address-book
   #   link: https://live.bilibili.com/22619211
+  github:
+    link: https://github.com/Badnuker
 
 #! ---------------------------------------------------------------
 #! Site Meta Configs
@@ -216,5 +218,5 @@ footer_links:
 #! ---------------------------------------------------------------
 shiki:
   enable: true
-  theme: dark-plus
+  theme: github-dark
   backgroundColor: "#1a1a1a"
