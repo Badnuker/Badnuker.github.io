@@ -75,6 +75,7 @@ theme:
 #! @docs https://aurora.tridiamond.tech/guide/social.html
 #! ---------------------------------------------------------------
 socials:
+  github: 'https://github.com/Badnuker'
   customs:
   ##! Example:
   ##! --- Using SVG
@@ -219,4 +220,4 @@ footer_links:
 shiki:
   enable: true
   theme: github-dark
-  backgroundColor: "#1a1a1a"
+  backgroundColor: '#1a1a1a'
