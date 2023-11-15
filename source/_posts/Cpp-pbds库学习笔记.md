@@ -29,7 +29,7 @@ template<class _Tv, class Cmp_Fn = std::less<__gnu_pbds::priority_queue<_Tv, Cmp
 解析：
 
 - `_Tv`：堆中元素的类型
-- `Cmp_Fn`：比较函数，默认为`less`，于`std::priority_queue`相同，为大根堆
+- `Cmp_Fn`：比较函数，默认为`less`，与`std::priority_queue`相同，为大根堆
 - `Tag`：默认即可
 - `_Alloc`：别管
 
@@ -41,7 +41,7 @@ template<class _Tv, class Cmp_Fn = std::less<__gnu_pbds::priority_queue<_Tv, Cmp
 __gnu_pbds::priority_queue<int,greater<int>> q;
 ~~~
 
-（为于STL区分开，此处应指定命名空间`__gnu_pbds::`）
+（为与STL区分开，此处应指定命名空间`__gnu_pbds::`）
 
 ### 用法
 
