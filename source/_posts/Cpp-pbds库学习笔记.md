@@ -16,7 +16,7 @@ using namespace __gnu_cxx;
 using namespace __gnu_pbds;
 ~~~
 
-（注意：Clang++中没有此扩展库，需要使用g++编译器，并且不能是TDM-GCC）
+（注意：Clang++ 中没有此扩展库，需要使用 g++ 编译器）
 
 ## 堆
 
@@ -29,7 +29,7 @@ template<class _Tv, class Cmp_Fn = std::less<__gnu_pbds::priority_queue<_Tv, Cmp
 解析：
 
 - `_Tv`：堆中元素的类型
-- `Cmp_Fn`：比较函数，默认为`less`，与`std::priority_queue`相同，为大根堆
+- `Cmp_Fn`：比较函数，默认为 `less`，与 `std::priority_queue` 相同，为大根堆
 - `Tag`：默认即可
 - `_Alloc`：别管
 
@@ -41,17 +41,17 @@ template<class _Tv, class Cmp_Fn = std::less<__gnu_pbds::priority_queue<_Tv, Cmp
 __gnu_pbds::priority_queue<int,greater<int>> q;
 ~~~
 
-（为与STL区分开，此处应指定命名空间`__gnu_pbds::`）
+（为与 STL 区分开，此处应指定命名空间 `__gnu_pbds::`）
 
 ### 用法
 
-区别于STL的实用用法：
+区别于 STL 的实用用法：
 
-`push`：pb_ds中的`push`函数具有返回值，返回被`push`元素的迭代器
+`push`：pb_ds 中的 `push` 函数具有返回值，返回被 `push` 元素的迭代器
 
-`modify`：传入`(迭代器，新值)`，将迭代器所指向的元素变成新的值
+`modify`：传入 `(迭代器，新值)`，将迭代器所指向的元素变成新的值
 
-`join`：用法形如`a.join(b)`，将`b`堆合并到`a`堆（需要两个堆定义相同），并清空`b`堆
+`join`：用法形如 `a.join(b)` ，将 `b` 堆合并到 `a` 堆（需要两个堆定义相同），并清空 `b` 堆
 
 ### 例题
 
